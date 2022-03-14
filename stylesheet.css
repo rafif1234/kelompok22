@@ -20,20 +20,29 @@ li {
 
 .main{
   padding:100px 80px;
+  background-image: url(https://maiestas.org/ar/wp-content/uploads/2020/07/%D8%AA%D8%B5%D9%84-Apple-%D8%A5%D9%84%D9%89-AliExpress-%D9%88%D8%A8%D8%AE%D8%B5%D9%88%D9%85%D8%A7%D8%AA-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9.jpg);
+  background-size: cover;
+  padding-bottom:180px;
 }
 .image-main{
   float:right;
   width: 500px;
+  opacity: 1;
  
 }
 .copy-container h1{
   font-size:100px;
+  color:black;
+  opacity: 0.7;
 }
 .copy-container h2{
   font-size:40px;
+  color:#12127a;
+  opacity:0.7;
 }
 .copy-container span{
   color:#474787;
+  opacity: 0.7;
 }
 
 .header{
@@ -81,17 +90,10 @@ li {
 }
 
 .contents-item {
-  float:right;
-
- 
-  margin: right 40px;
- 
+   margin:10px;
+    float: right;
  
 }
-
-
-
-
 
 
 .contact-form {
@@ -134,10 +136,19 @@ input,textarea{
 }
 .image-content{
 width: 200px;
-margin-left: 175px;
-margin-top: 100px;
-left: 199px;
+margin-left: 80px;
+margin-top: 80px;
+left: 150px;
+opacity:0.7;
 
 }
+.main2{
+    background-color: #a29bfe;
+    padding-bottom: 80px;
+    text-align: center;
+    font-size:20px;
+}
+
+
 
 
