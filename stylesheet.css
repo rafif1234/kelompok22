@@ -38,11 +38,8 @@ body {
   padding: 0;
   text-decoration: none;
   width: 100px;
-  /* this is the width of the menu items */
   line-height: 35px;
-  /* this is the hieght of the menu items */
   color: #ffffff;
-  /* list item font color */
 }
 
 #nav li li a {
@@ -58,7 +55,6 @@ body {
   padding: 0;
   left: 0;
   display: none;
-  /* hides sublists */
 }
 
 
@@ -66,18 +62,14 @@ body {
   display: none;
 }
 
-/* hides sub-sublists */
 #nav li:hover ul {
   display: block;
 }
 
 #nav li li:hover ul {
   display: block;
-  /* shows sub-sublist on hover */
   margin-left: 200px;
-  /* this should be the same width as the parent list item */
   margin-top: -35px;
-  /* aligns top of sub menu with top of list item */
 }
 
 .main{
