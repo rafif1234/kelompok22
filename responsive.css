@@ -1,0 +1,146 @@
+@media only screen and (max-width: 600px) {
+  .image-main {
+    width: 100%;
+  }
+  .copy-container h1 {
+    font-size: 80px;
+  }
+  .copy-container h2 {
+    font-size: 30px;
+    color: #12127a;
+  }
+  .copy-container span {
+    color: #474787;
+  }
+
+  .main2 {
+    height: auto;
+  }
+
+  .main2 .main2-title h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .main2 .main2-parent {
+    flex-direction: row;
+  }
+
+  .main2 .main2-parent .main2-img {
+    margin: 2.5%;
+    width: 45%;
+  }
+
+  .main2 .main2-parent .main2-img img {
+    text-align: center;
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+  }
+  .main2 .main2-parent .main2-img p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .contents {
+    height: auto;
+  }
+
+  .contents .contents-title h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .contents .contents-parent {
+    flex-direction: row;
+  }
+
+  .contents .contents-parent .contents-item {
+    margin: 2.5%;
+    width: 45%;
+  }
+
+  .contents .contents-parent .contents-item img {
+    text-align: center;
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+  }
+
+  .contact-form .contact-form-parent h3 {
+    font-size: 20px;
+    margin-left: 40%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .contact-form .contact-form-parent .contact-submit {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .bg-sidebar.change {
+    right: 0;
+    visibility: hidden;
+    display: none;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  nav ul {
+    display: flex;
+    position: relative;
+    background-color: unset;
+    top: unset;
+    bottom: unset;
+    right: unset;
+    width: unset;
+    flex-direction: row;
+  }
+
+  nav ul li {
+    padding: 10px 15px;
+  }
+
+  nav ul li:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    transition: 0.3s;
+    background-color: black;
+    transform: translateY(20px);
+  }
+
+  nav ul li a {
+    color: black;
+    font-size: 1.1rem;
+  }
+
+  /* nav ul li:last-child {
+    font-weight: 550;
+  } */
+}
+
+@media screen and (min-width: 1200px) {
+  .container-flex {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
