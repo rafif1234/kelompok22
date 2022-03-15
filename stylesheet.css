@@ -112,9 +112,7 @@ body {
 }
 .header-logo{
   float:left;
-  
   padding: 20px 40px;
-  
 }
 .logo{
   width: 124px;
@@ -224,7 +222,15 @@ float: left;;
 .image-content p{
     text-align:center;
 }
-
-
-
-
+.logo {
+  width: 124px;
+  margin-top: 20px;
+  background: rgb(9, 255, 0);
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.Teks-berjalan h1 {
+  position: relative
+}
