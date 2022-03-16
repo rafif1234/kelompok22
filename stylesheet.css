@@ -273,7 +273,26 @@ nav ul li a {
  border-radius: 10px;
 }
 
+.contents .contents-parent2 {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%; 
+  
+}
 
+.contents .contents-parent2 .contents-item2 {
+margin: 5%;
+width: 15%;
+margin-left: 3px;
+margin-top: 0px;
+}
+
+.contents .contents-parent2 .contents-item2 img {
+ padding:5px;
+ width: 150%;
+ height: 200px;
+ border-radius: 10px;
+}
 .contact-form {
   height: auto;
   margin-left: 10%;
